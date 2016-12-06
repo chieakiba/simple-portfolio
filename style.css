@@ -5,7 +5,7 @@ body {
 
 #intro {
   height: 100vh;
-  background-image: url(hero-image-min.jpg);
+  background-image: url('http://i.imgur.com/qqAlO9a.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
