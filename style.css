@@ -1,0 +1,61 @@
+/*Background Image*/
+body {
+  text-align: center;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url(hero-image-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  color: white;
+}
+
+#title {
+  font-family: "Codystar", cursive;
+  font-size: 8em;
+  margin-top: 2em;
+}
+
+#whoami, #sample, footer {
+  font-family: "Raleway", sans-serif;;
+  font-weight: 200;
+}
+
+#sample, footer {
+  background-color: #f7f7f7;
+  padding: 2em;
+}
+
+#sample h2 {
+  text-decoration: underline;
+}
+
+.work p {
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+#workOne, #workTwo, #workThree, #workFour {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  font-size: 1.5em;
+  padding-bottom: 6em;
+}
+
+.fa {
+  padding-right: .25em;
+}
