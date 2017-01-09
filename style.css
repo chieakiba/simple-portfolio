@@ -33,17 +33,17 @@ body {
   text-decoration: underline;
 }
 
-.work p {
+work {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+
+work p {
   width: 55%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 1em;
-}
-
-#workOne, #workTwo, #workThree, #workFour {
-  margin-top: 3em;
-  padding-bottom: 2em;
-  font-size: 1.5em;
 }
 
 img {
