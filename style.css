@@ -1,61 +1,43 @@
-/*Background Image*/
 body {
-  text-align: center;
-}
+  background-color: #f7f7f7f; }
 
 #intro {
   height: 100vh;
-  background-image: url('http://i.imgur.com/qqAlO9a.jpg');
+  background-image: url("http://i.imgur.com/qqAlO9a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
   overflow: hidden;
-  color: white;
-}
+  color: white; }
+  #intro #title {
+    font-family: Codystar, cursive;
+    font-size: 8em;
+    margin-top: 2em; }
+  #intro #whoamI {
+    font-weight: 200; }
 
-#title {
-  font-family: "Codystar", cursive;
-  font-size: 8em;
-  margin-top: 2em;
-}
-
-#whoami, #sample, footer {
-  font-family: "Raleway", sans-serif;;
-  font-weight: 200;
-}
-
-#sample, footer {
-  background-color: #f7f7f7;
-  padding: 2em;
-}
-
-#sample h2 {
-  text-decoration: underline;
-}
-
-work {
-  margin-top: 3em;
-  padding-bottom: 2em;
-  font-size: 1.5em;
-}
-
-work p {
-  width: 55%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1em;
-}
-
-img {
-  width: 50%;
-  height: 50%;
-}
+#meat {
+  font-weight: 200; }
+  #meat aboutMe {
+    text-align: center; }
+  #meat work {
+    margin-top: 3em;
+    padding-bottom: 2em;
+    font-size: 1.5em; }
+    #meat work p {
+      width: 55%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 1em; }
+    #meat work img {
+      width: 50%;
+      height: 50%; }
 
 footer {
   font-size: 1.5em;
-  padding-bottom: 8em;
-}
+  padding: 2em;
+  padding-bottom: 8em; }
+  footer .fa {
+    padding-right: .25em; }
 
-.fa {
-  padding-right: .25em;
-}
+/*# sourceMappingURL=style.css.map */
