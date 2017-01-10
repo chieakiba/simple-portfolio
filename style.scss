@@ -1,0 +1,94 @@
+$font-stack: Raleway, sans-serif;
+$title-font: Codystar, cursive;
+$background-color: #f7f7f7;
+$center: center;
+
+body {
+  background-color: $background-color;
+  text-align: $center;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url('http://i.imgur.com/qqAlO9a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  color: white;
+
+  #title {
+    font-family: $title-font;
+    font-size: 8em;
+    margin-top: 2em;
+  }
+
+  #whoamI {
+    font-weight: 200;
+  }
+}
+
+#aboutMe {
+  font-size: 1.5em;
+  padding: 2em;
+  background-color: white;
+  font-family: $font-stack;
+
+  p{
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+#meat {
+  h1 {
+    margin-top: 2em;
+  }
+
+  project {
+    margin-top: 3em;
+    padding-bottom: 2em;
+    font-size: 1.5em;
+
+    h2 {
+      margin: 2em 0 1em 0;
+    }
+
+    p {
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 1em;
+      font-weight: 200;
+    }
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  }
+}
+
+hr {
+  border-top: 1px solid #a9a9a9;
+  margin: 5em auto 3em auto;
+  width: 80%;
+}
+
+footer {
+  font-family: $font-stack;
+  padding: 1em 0 8em 0;
+
+  a {
+    color: darkslategray;
+  }
+
+  h4 {
+    padding-bottom: 1em;
+  }
+
+  .fa {
+    padding-right: .5em;
+    font-size: 2em;
+  }
+}

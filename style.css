@@ -1,5 +1,6 @@
 body {
-  background-color: #f7f7f7f; }
+  background-color: #f7f7f7;
+  text-align: center; }
 
 #intro {
   height: 100vh;
@@ -16,28 +17,47 @@ body {
   #intro #whoamI {
     font-weight: 200; }
 
-#meat {
-  font-weight: 200; }
-  #meat aboutMe {
-    text-align: center; }
-  #meat work {
-    margin-top: 3em;
-    padding-bottom: 2em;
-    font-size: 1.5em; }
-    #meat work p {
-      width: 55%;
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 1em; }
-    #meat work img {
-      width: 50%;
-      height: 50%; }
-
-footer {
+#aboutMe {
   font-size: 1.5em;
   padding: 2em;
-  padding-bottom: 8em; }
+  background-color: white;
+  font-family: Raleway, sans-serif; }
+  #aboutMe p {
+    width: 75%;
+    margin: 0 auto; }
+
+#meat h1 {
+  margin-top: 2em; }
+#meat project {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  font-size: 1.5em; }
+  #meat project h2 {
+    margin: 2em 0 1em 0; }
+  #meat project p {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    font-weight: 200; }
+  #meat project img {
+    width: 50%;
+    height: 50%; }
+
+hr {
+  border-top: 1px solid #a9a9a9;
+  margin: 5em auto 3em auto;
+  width: 80%; }
+
+footer {
+  font-family: Raleway, sans-serif;
+  padding: 1em 0 8em 0; }
+  footer a {
+    color: darkslategray; }
+  footer h4 {
+    padding-bottom: 1em; }
   footer .fa {
-    padding-right: .25em; }
+    padding-right: .5em;
+    font-size: 2em; }
 
 /*# sourceMappingURL=style.css.map */
